@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author eliott
+ *
+ */
+module allBoardShop {
+}
