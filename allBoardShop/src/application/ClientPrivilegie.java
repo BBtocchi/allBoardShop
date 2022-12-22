@@ -15,6 +15,26 @@ public class ClientPrivilegie {
 		this.num_tel = num_tel;
 		this.activite = activites;
 	}
+	//getter
+	public String getNom() {
+		return nom;
+	}
+
+	public String getPrenom() {
+		return prenom;
+	}
+
+	public String getAdresse_postale() {
+		return adresse_postale;
+	}
+
+	public int getNum_tel() {
+		return num_tel;
+	}
+
+	public Activite[] getActivite() {
+		return activite;
+	}
 	
 	
 }

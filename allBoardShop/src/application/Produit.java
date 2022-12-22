@@ -15,6 +15,39 @@ public class Produit {
 		this.photo = photo;
 		this.description = description;
 	}
+
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public int getPrixBase() {
+		return prixBase;
+	}
+
+	public void setPrixBase(int prixBase) {
+		this.prixBase = prixBase;
+	}
+
+	public int getPrixVente() {
+		return prixVente;
+	}
+
+	public void setPrixVente(int prixVente) {
+		this.prixVente = prixVente;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
 	
 	
 }

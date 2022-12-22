@@ -1,5 +1,5 @@
 package application;
 
-public class Taille {
-
+public enum Taille {
+	small,large,xs,s,m,xl,xxl,xxxl
 }

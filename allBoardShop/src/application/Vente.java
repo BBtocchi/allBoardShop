@@ -20,4 +20,33 @@ public class Vente {
 		this.listeProduit = listeProduit;
 	}
 	
+	//getter
+	public String getNom() {
+		return nom;
+	}
+
+	public Date getDateDebut() {
+		return dateDebut;
+	}
+
+
+	public Date getDateFin() {
+		return dateFin;
+	}
+
+
+	public String getDescriptif_detaille() {
+		return descriptif_detaille;
+	}
+
+
+	public Produit[] getListeProduit() {
+		return listeProduit;
+	}
+
+
+	public ClientPrivilegie[] getListeClient() {
+		return listeClient;
+	}
+
 }
